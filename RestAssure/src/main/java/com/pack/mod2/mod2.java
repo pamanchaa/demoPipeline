@@ -396,7 +396,7 @@ AutoMain.extentTest = AutoMain.extentReports.createTest("TC005_getBookDetails_re
 	    System.out.println("The response code = " +response.getStatusCode());
 	    Assert.assertEquals(response.getStatusCode(),200);
 		
-		
+		System.out.println("");
 		
 //	    RequestSpecification httpRequest = RestAssured.given().header("Authorization", "Bearer " + token)
 //	            .header("Content-Type", "application/json");
