@@ -5,7 +5,10 @@ pipeline {
         stage('Test') {
             steps {
                // bat "mvn -D clean test"
-               bat 'mvn -f C:\\Users\\Administrator\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\demoPipeline\\RestAssure\\pom.xml clean test'
+               //bat 'mvn -f C:\\Users\\Administrator\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\demoPipeline\\RestAssure\\pom.xml clean test'
+               cd RestAssure
+               bat "mvn -D clean test"
+               
             }
  
             post {                
