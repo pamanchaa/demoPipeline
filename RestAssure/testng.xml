@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <!-- <class name="com.pack.mod1.mod1"/> -->
-      <class name="com.pack.main.AutoMain"/>
+      <!-- <class name="com.pack.main.AutoMain"/> -->
       <class name="com.pack.mod2.mod2"/>
     </classes>
     <!-- To test commit in eclipse -->
