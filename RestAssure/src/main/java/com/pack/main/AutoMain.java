@@ -116,7 +116,7 @@ public class AutoMain {
 ////////////////////////////////////////////////////////////
 	@AfterSuite
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
 		extentTest.pass("closed the browser");
 		extentTest.info("test completed");
 

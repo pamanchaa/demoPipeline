@@ -228,7 +228,10 @@
 					<suiteXmlFiles>
 					
 						<!-- <suiteXmlFile>C:\Users\pamancha\eclipse-workspace\RestAssure\testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>C:\Users\Administrator\AppData\Local\Jenkins\.jenkins\workspace\demoPipeline\RestAssure\testng.xml</suiteXmlFile>
+						<!--<suiteXmlFile>C:\Users\Administrator\AppData\Local\Jenkins\.jenkins\workspace\demoPipeline\RestAssure\testng.xml
+						</suiteXmlFile>-->
+						<suiteXmlFile>C:\Users\pamancha\git\repository\RestAssure\testng.xml
+						</suiteXmlFile>
 					
 					</suiteXmlFiles>
 				</configuration>

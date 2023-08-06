@@ -2,12 +2,12 @@
 <testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T06:46:56Z" name="Suite" finished-at="2023-08-06T06:46:56Z" duration-ms="165">
+  <suite started-at="2023-08-06T07:01:40Z" name="Suite" finished-at="2023-08-06T07:01:40Z" duration-ms="156">
     <groups>
     </groups>
-    <test started-at="2023-08-06T06:46:56Z" name="Test" finished-at="2023-08-06T06:46:56Z" duration-ms="165">
+    <test started-at="2023-08-06T07:01:40Z" name="Test" finished-at="2023-08-06T07:01:40Z" duration-ms="156">
       <class name="com.pack.mod2.mod2">
-        <test-method signature="createBookDetails_httpPost()[pri:7, instance:com.pack.mod2.mod2@4ba302e0]" started-at="2023-08-06T12:16:56Z" name="createBookDetails_httpPost" description="TC007" finished-at="2023-08-06T12:16:56Z" duration-ms="18" status="FAIL">
+        <test-method signature="createBookDetails_httpPost()[pri:7, instance:com.pack.mod2.mod2@4ba302e0]" started-at="2023-08-06T12:31:40Z" name="createBookDetails_httpPost" description="TC007" finished-at="2023-08-06T12:31:40Z" duration-ms="17" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "com.pack.main.AutoMain.extentReports" is null]]>
