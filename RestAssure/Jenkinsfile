@@ -24,7 +24,7 @@ pipeline {
                        allowMissing: false, 
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
-                       reportDir: 'target/surefire-reports/', 
+                       reportDir: 'RestAssure/target/surefire-reports/', 
                        reportFiles: 'emailable-report.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
