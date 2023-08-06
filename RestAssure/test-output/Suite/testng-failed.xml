@@ -5,15 +5,9 @@
     <classes>
       <class name="com.pack.mod2.mod2">
         <methods>
-          <include name="deleteBook_delete"/>
+          <include name="createBookDetails_httpPost"/>
         </methods>
       </class> <!-- com.pack.mod2.mod2 -->
-      <class name="com.pack.main.AutoMain">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.pack.main.AutoMain -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
