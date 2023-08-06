@@ -187,7 +187,7 @@ AutoMain.extentTest = AutoMain.extentReports.createTest("TC005_getBookDetails_re
 
 	@Test (
 			priority=7,
-			enabled=false,
+//			enabled=false,
 			description="TC007"
 			)
 	public void createBookDetails_httpPost() {
@@ -353,7 +353,7 @@ AutoMain.extentTest = AutoMain.extentReports.createTest("TC005_getBookDetails_re
 	
 	@Test (
 			priority=10,
-//			enabled=false,
+			enabled=false,
 			description="TC0010"
 			)
 	public void deleteBook_delete() {
